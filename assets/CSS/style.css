@@ -3,7 +3,7 @@ body {
   background: linear-gradient(120deg, #fdfbfb, #ebedee);
   margin: 0;
   color: #333;
-  background-image: url('https://i.ibb.co/4W2DGKm/stars.png');
+  background-image: url('https://andreea.bradac.ro/sopm/background.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -84,4 +84,5 @@ button:hover { background: #9f7aea; }
   padding: 0.8rem;
   border-radius: 10px;
   background: #f3e8ff;
+
 }
