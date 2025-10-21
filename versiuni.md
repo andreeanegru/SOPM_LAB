@@ -1,3 +1,6 @@
+ver 1.1.1
+- schimbare fundal cu barbie;
+
 ver 1.1.0
 - separare index.php stil router pentru site;
 - paginile au fost adăugate în /pages
