@@ -1,3 +1,6 @@
+VER 1.1.2
+- update ghicitoare.php, intorducere "Dark humor" + diferite set-uri de output-uri in functie de zodie;
+
 ver 1.1.1
 - schimbare fundal cu barbie;
 
