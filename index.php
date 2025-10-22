@@ -1,9 +1,17 @@
+
 <?php
-$allowed = ['compatibilitati','test','ghicitoare'];
+// Pagini permise pentru includere
+$allowed = ['compatibilitati','test','ghicitoare','contact'];
+
+// Verifică dacă parametrul ?page este valid, altfel folosește "compatibilitati"
 $page = isset($_GET['page']) && in_array($_GET['page'], $allowed) ? $_GET['page'] : 'compatibilitati';
 
-function isActive($p, $page){ return $p === $page ? 'active' : ''; }
-?><!DOCTYPE html>
+// Funcție pentru a marca butonul activ din meniu
+function isActive($p, $page){ 
+  return $p === $page ? 'active' : ''; 
+}
+?>
+<!DOCTYPE html>
 <html lang="ro">
 <head>
   <meta charset="UTF-8" />
@@ -13,12 +21,14 @@ function isActive($p, $page){ return $p === $page ? 'active' : ''; }
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-page="<?= htmlspecialchars($page, ENT_QUOTES) ?>">
+
 <header>
   <h1>Zodii Colorate 🌟</h1>
   <nav>
     <a class="<?= isActive('compatibilitati', $page) ?>" href="?page=compatibilitati">Compatibilități</a>
     <a class="<?= isActive('test', $page) ?>" href="?page=test">Test Personalitate</a>
     <a class="<?= isActive('ghicitoare', $page) ?>" href="?page=ghicitoare">Ghicitoarea Zilei</a>
+    <a class="<?= isActive('contact', $page) ?>" href="?page=contact">Contact</a>
   </nav>
 </header>
 
@@ -29,3 +39,4 @@ function isActive($p, $page){ return $p === $page ? 'active' : ''; }
 <script src="assets/js/app.js"></script>
 </body>
 </html>
+```
