@@ -1,3 +1,6 @@
+ver 1.2.2
+-am adaugat informatii noi in "test persoanlitate"
+
 ver 1.2.1
 -am adaugat in compatibilitati.php, mai multe informatii si sa putem selecta ziua
 
