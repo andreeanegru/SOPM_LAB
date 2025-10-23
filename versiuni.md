@@ -1,5 +1,5 @@
 ver 1.2.1
--am adaugat in compatibilitati.php, mai multe informatii si sa putem selecta ziua.
+-am adaugat in compatibilitati.php, mai multe informatii si sa putem selecta ziua
 
 ver 1.2.0
 - am adaugat o noua pagina numita contact pentru localizare
